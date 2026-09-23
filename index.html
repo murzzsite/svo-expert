@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>СВО Эксперт — помощь в оформлении контракта на военную службу</title>
+<meta name="description" content="Помогаем поступить на военную службу по контракту на желаемое направление, получить максимальную выплату и хорошее отношение в части. Бесплатно для кандидата. Работаем по всей России.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">
+      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17 2L30 8V16C30 24.5 24.5 30.5 17 32C9.5 30.5 4 24.5 4 16V8L17 2Z" fill="#1B3A63"/>
+        <path d="M17 6L26 10.2V16C26 22.3 22.2 26.9 17 28.2C11.8 26.9 8 22.3 8 16V10.2L17 6Z" fill="#C9A227"/>
+        <path d="M14 16L16.3 18.3L21 13.6" stroke="#FAFAFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>СВО <span class="logo__suffix">Эксперт</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Выплаты по регионам</a>
+      <a href="#process">Как это работает</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <div class="header__actions">
+      <a href="tel:+78001234567" class="header__phone">8 800 123-45-67</a>
+      <a href="#leadForm" class="btn btn--primary header__cta"><span>Оставить заявку</span></a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="eyebrow">Помощь кандидатам по всей России</span>
+        <h1>Оформим контракт с максимальной выплатой и хорошим отношением в части</h1>
+        <p class="hero__lead">Помогаем поступить на военную службу по контракту на желаемое направление, подобрать выгодные условия по выплатам и сопровождаем на всех этапах — от документов до прибытия в часть. Услуга <strong>бесплатна для кандидата</strong>.</p>
+        <div class="hero__ctas">
+          <a href="#leadForm" class="btn btn--primary btn--lg">Оставить заявку</a>
+          <a href="https://t.me/pro_svo_expert" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">Написать в Telegram</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat"><span class="stat__num" data-target="10">0</span><span class="stat__label">регионов работы</span></div>
+          <div class="stat"><span class="stat__num" data-target="3100000">0</span><span class="stat__label">₽ выплата в топ-регионах</span></div>
+          <div class="stat"><span class="stat__num" data-target="0">0</span><span class="stat__label">₽ стоимость для кандидата</span></div>
+        </div>
+      </div>
+      <div class="hero__card">
+        <div class="hero__card-top">
+          <span class="hero__card-badge">Бесплатно для кандидата</span>
+          <h3>Что входит в сопровождение</h3>
+        </div>
+        <ul class="hero__card-list">
+          <li>Подбор региона и направления службы</li>
+          <li>Расчёт и оформление максимальной выплаты</li>
+          <li>Сбор и проверка документов</li>
+          <li>Договорённость по условиям в части</li>
+          <li>Поддержка на всех этапах до убытия</li>
+        </ul>
+        <a href="#leadForm" class="btn btn--primary hero__card-btn">Получить консультацию</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADVANTAGES -->
+  <section class="advantages" id="advantages">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Почему обращаются к нам</span>
+        <h2>Работаем в интересах кандидата, а не только цифр в отчёте</h2>
+      </div>
+      <div class="adv-grid">
+        <div class="adv">
+          <div class="adv__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 2L21 6V11C21 16.5 17.4 20.7 12 22C6.6 20.7 3 16.5 3 11V6L12 2Z" stroke="#1B3A63" stroke-width="1.8"/><path d="M9 12L11.2 14.2L15.5 9.5" stroke="#C9A227" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Бесплатно для кандидата</h3>
+          <p>Наши услуги оплачиваются по программе поддержки контрактников региона — кандидат не платит ни рубля.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 20V10L12 4L20 10V20" stroke="#1B3A63" stroke-width="1.8"/><path d="M9 20V14H15V20" stroke="#C9A227" stroke-width="1.8"/></svg>
+          </div>
+          <h3>Выбор направления и части</h3>
+          <p>Подбираем регион, воинскую часть и должность под ваши пожелания и подготовку, а не «куда попало».</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M6 3H14L18 7V21H6V3Z" stroke="#1B3A63" stroke-width="1.8"/><path d="M14 3V7H18" stroke="#C9A227" stroke-width="1.8"/><path d="M9 12H15M9 16H15" stroke="#1B3A63" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Максимальная выплата</h3>
+          <p>Знаем актуальные региональные программы и помогаем оформить наибольшую единовременную выплату из доступных.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.4" stroke="#1B3A63" stroke-width="1.8"/><path d="M5 20C5 16.5 8 14 12 14C16 14 19 16.5 19 20" stroke="#C9A227" stroke-width="1.8"/></svg>
+          </div>
+          <h3>Договорённость по части</h3>
+          <p>Заранее согласовываем условия приёма и должность, чтобы не было неприятных сюрпризов на месте.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="#1B3A63" stroke-width="1.8"/><path d="M3 9H21" stroke="#C9A227" stroke-width="1.8"/><path d="M8 14H12" stroke="#1B3A63" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Сопровождение на всех этапах</h3>
+          <p>От первичной консультации до убытия в часть — на связи и решаем возникающие вопросы.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 2C7 2 3 6 3 11C3 16 7 20 12 22C17 20 21 16 21 11C21 6 17 2 12 2Z" stroke="#1B3A63" stroke-width="1.8"/><path d="M9 11.5L11.2 13.7L15.5 9" stroke="#C9A227" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Юридическая чистота</h3>
+          <p>Работаем в рамках официальных программ, все документы оформляются законно и прозрачно.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Услуги</span>
+        <h2>Что мы делаем на каждом этапе</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service">
+          <span class="service__num">01</span>
+          <h3>Первичная консультация</h3>
+          <p>Разбираем вашу ситуацию, отвечаем на вопросы, объясняем условия и суммы выплат в разных регионах.</p>
+          <span class="service__price">Бесплатно</span>
+        </div>
+        <div class="service">
+          <span class="service__num">02</span>
+          <h3>Подбор региона и направления</h3>
+          <p>Сравниваем доступные регионы по сумме выплаты, условиям и срокам, подбираем оптимальный вариант.</p>
+          <span class="service__price">Бесплатно</span>
+        </div>
+        <div class="service">
+          <span class="service__num">03</span>
+          <h3>Сбор и проверка документов</h3>
+          <p>Помогаем собрать полный пакет документов и проверяем его перед подачей, чтобы избежать задержек.</p>
+          <span class="service__price">Бесплатно</span>
+        </div>
+        <div class="service">
+          <span class="service__num">04</span>
+          <h3>Оформление выплаты</h3>
+          <p>Сопровождаем оформление единовременной выплаты по региональной программе — от заявления до зачисления.</p>
+          <span class="service__price">Бесплатно</span>
+        </div>
+        <div class="service">
+          <span class="service__num">05</span>
+          <h3>Согласование условий в части</h3>
+          <p>Заранее договариваемся о должности и подразделении с учётом вашего опыта и пожеланий.</p>
+          <span class="service__price">Бесплатно</span>
+        </div>
+        <div class="service">
+          <span class="service__num">06</span>
+          <h3>Сопровождение после прибытия</h3>
+          <p>Остаёмся на связи первое время после прибытия в часть — помогаем решить организационные вопросы.</p>
+          <span class="service__price">Бесплатно</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICE TABLE -->
+  <section class="prices" id="prices">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Единовременные выплаты</span>
+        <h2>Суммы по ключевым регионам</h2>
+        <p class="section-sub">Работаем по всей России — ниже актуальные суммы в регионах, где мы ведём наибольшее число кандидатов. По другим регионам сумму уточняем индивидуально при обращении.</p>
+      </div>
+      <div class="price-table-wrap">
+        <table class="price-table">
+          <thead>
+            <tr><th>Регион</th><th>Единовременная выплата</th><th></th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Екатеринбург</td><td>от 3 100 000 ₽</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Смоленск</td><td>от 3 000 000 ₽</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Калуга</td><td>от 2 900 000 ₽</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Тула</td><td>от 2 500 000 ₽</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Москва</td><td>от 2 300 000 ₽</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Нижний Новгород</td><td>от 2 300 000 ₽</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Великий Новгород</td><td>от 1 500 000 ₽</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Рязань</td><td>от 1 400 000 ₽</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Воронеж</td><td>по запросу</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Тамбов</td><td>по запросу</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+            <tr><td>Другие регионы РФ</td><td>по запросу</td><td><a href="#leadForm" class="price-table__link">Оставить заявку</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="price-note">Суммы актуальны на момент публикации и зависят от региональных программ поддержки — уточняем точный размер на консультации.</p>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Как это работает</span>
+        <h2>От заявки до прибытия в часть — 5 шагов</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="step__num">1</span>
+          <h3>Заявка</h3>
+          <p>Оставляете заявку на сайте или пишете в Telegram — перезваниваем в течение дня.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">2</span>
+          <h3>Консультация</h3>
+          <p>Обсуждаем цели, регион, желаемое направление и отвечаем на все вопросы.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">3</span>
+          <h3>Подбор направления</h3>
+          <p>Подбираем регион и часть с лучшими условиями выплаты и службы под вашу ситуацию.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">4</span>
+          <h3>Оформление документов</h3>
+          <p>Помогаем собрать и оформить документы, сопровождаем на этапе подачи.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">5</span>
+          <h3>Отправка кандидата</h3>
+          <p>Согласовываем условия в части и сопровождаем до момента прибытия и первое время после.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Отзывы</span>
+        <h2>Что говорят те, кто уже прошёл через нас</h2>
+      </div>
+      <div class="reviews-grid">
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>Помогли выбрать регион с хорошей выплатой и всё оформили быстро, без лишней бюрократии. На связи были на каждом этапе.</p>
+          <span class="review__author">Кандидат, Свердловская область</span>
+        </div>
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>Боялся, что это окажется обманом или платной услугой. Всё оказалось честно и действительно бесплатно — оплатила программа региона.</p>
+          <span class="review__author">Кандидат, Тульская область</span>
+        </div>
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>Договорились по условиям заранее, приехал — всё совпало с тем, что обсуждали. Рекомендую обращаться сразу, а не решать вопрос самостоятельно.</p>
+          <span class="review__author">Кандидат, Нижегородская область</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Вопросы и ответы</span>
+        <h2>То, что чаще всего спрашивают</h2>
+      </div>
+      <div class="faq__list">
+        <details class="faq__item">
+          <summary>Это точно бесплатно для меня?</summary>
+          <p>Да. Наши услуги оплачиваются в рамках региональных программ поддержки кандидатов на контрактную службу — вы не платите ничего.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Это законно?</summary>
+          <p>Да, мы работаем в рамках официальных региональных программ и действующего законодательства, все документы оформляются легально.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Как быстро можно оформить контракт?</summary>
+          <p>Сроки зависят от региона и готовности документов, в среднем процесс от консультации до подачи занимает несколько дней.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Могу ли я выбрать регион и направление?</summary>
+          <p>Да, мы подбираем варианты с учётом ваших пожеланий, опыта и подготовки и предлагаем оптимальные по выплате и условиям.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Что если условия на месте не совпадут с обещанными?</summary>
+          <p>Мы заранее согласовываем условия с частью и остаёмся на связи после прибытия, чтобы оперативно решить любые вопросы.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Нужен ли опыт службы?</summary>
+          <p>Нет, мы работаем как с кандидатами без опыта, так и с теми, кто уже служил — направление подбираем индивидуально.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section class="contact-form" id="leadForm-section">
+    <div class="container contact-form__inner">
+      <div class="form">
+        <span class="eyebrow">Заявка</span>
+        <h2>Оставьте заявку — перезвоним и всё расскажем</h2>
+        <p class="section-sub">Консультация бесплатна и ни к чему не обязывает.</p>
+        <form id="leadForm">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form__row">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+          </div>
+          <div class="form__row">
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </div>
+          <div class="form__row">
+            <select name="region">
+              <option value="">Желаемый регион (если знаете)</option>
+              <option>Москва</option>
+              <option>Воронеж</option>
+              <option>Калуга</option>
+              <option>Нижний Новгород</option>
+              <option>Тула</option>
+              <option>Екатеринбург</option>
+              <option>Тамбов</option>
+              <option>Рязань</option>
+              <option>Смоленск</option>
+              <option>Великий Новгород</option>
+              <option>Другой регион</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <textarea name="comment" placeholder="Комментарий (необязательно)" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg form__submit">Оставить заявку</button>
+          <p class="form__note">Отправляя заявку, вы соглашаетесь с <a href="privacy.html">политикой обработки данных</a>.</p>
+        </form>
+      </div>
+      <div class="map">
+        <iframe src="https://yandex.ru/map-widget/v1/?ll=37.617635%2C55.755814&z=10" width="100%" height="100%" frameborder="0" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="contacts">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a href="#" class="logo logo--footer">
+        <svg width="30" height="30" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17 2L30 8V16C30 24.5 24.5 30.5 17 32C9.5 30.5 4 24.5 4 16V8L17 2Z" fill="#1B3A63"/>
+          <path d="M17 6L26 10.2V16C26 22.3 22.2 26.9 17 28.2C11.8 26.9 8 22.3 8 16V10.2L17 6Z" fill="#C9A227"/>
+          <path d="M14 16L16.3 18.3L21 13.6" stroke="#FAFAFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>СВО Эксперт</span>
+      </a>
+      <p class="footer__desc">Помощь в оформлении контракта на военную службу. Бесплатно для кандидата. Работаем по всей России.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Разделы</h4>
+      <a href="#services">Услуги</a>
+      <a href="#prices">Выплаты по регионам</a>
+      <a href="#process">Как это работает</a>
+      <a href="#faq">Вопросы</a>
+    </div>
+    <div class="footer__col">
+      <h4>Контакты</h4>
+      <a href="tel:+78001234567">8 800 123-45-67</a>
+      <a href="https://t.me/pro_svo_expert" target="_blank" rel="noopener">Telegram: @pro_svo_expert</a>
+      <a href="privacy.html">Политика обработки данных</a>
+    </div>
+    <div class="footer__col">
+      <h4>Материалы</h4>
+      <a href="materials.html">Все материалы</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> СВО Эксперт. Информационно-консультационные услуги. Не является государственным органом.</span>
+  </div>
+</footer>
+
+<a href="https://t.me/pro_svo_expert" target="_blank" rel="noopener" class="fab" aria-label="Написать в Telegram">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M21 4L2.5 11.2c-.9.35-.88 1.65.03 1.96l4.2 1.4 1.7 5.3c.3.9 1.5 1.1 2.1.35l2.4-2.9 4.4 3.3c.75.55 1.85.15 2.05-.75L22.9 4.9c.2-.9-.7-1.6-1.9-.9z" fill="#fff"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
